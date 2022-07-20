@@ -7,6 +7,8 @@
     <title>login</title>
 </head>
 <body>
+
+    <h1>HALAMAN LOGIN</h1>
     <ul>
 <form action="admin.php" method="post"></form>
     <li><label for="username">Username</label>
