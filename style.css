@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: cornflowerblue;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.header{
+justify-content: center;
+
+}
+
+.login{
+    background-color: #fff;
+    width: 350px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login h1 {
+    margin: 0 0 20px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.login .input-group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.login .input-group input{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.login .input-group button{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-center {
+ 
+}
+
+
+.login .input-group input:focus ~ span,
+.login .input-group input:valid ~ span{
+top: -12px;
+left: 20px;
+font-size: 12px;
+background-color: cornflowerblue;
+padding: 2px 4px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+
+.login .input-group input label{
+    background-color: cornflowerblue;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5;
+}
+.login .input-group button[type="submit"]{
+    background-color: cornflowerblue;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5;
+    
+}
