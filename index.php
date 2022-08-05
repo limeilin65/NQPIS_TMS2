@@ -5,7 +5,7 @@ if (isset($_POST["submit"])) {
     // cek username dan password
     if ($_POST["username"] == "admin" && $_POST["password"] == "123") {
         // jika benar, redirect ke halaman admin
-        header("Location: admin.php");
+        header("Location: home.php");
         exit;
     } else {
         // jika salah tampilkan pesan kesalahan
@@ -50,18 +50,17 @@ if (isset($_POST["submit"])) {
                     <input type="password" name="password" id="password">
                 </div>
 
-
-
                 <div class="input-group">
                     <button type="submit" name="submit">Login</button>
                 </div>
 
             </div>
 
+
         </form>
     </ul>
     <div class="text-center">
-        <a class="small" href="registration.php">Create an Account!</a>
+        <a class="small" href="register.html">Create an Account!</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
